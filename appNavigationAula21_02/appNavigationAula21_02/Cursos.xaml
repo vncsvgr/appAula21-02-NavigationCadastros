@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appNavigationAula21_02.Cursos">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Cursos" HorizontalTextAlignment="Center" FontSize="36" />
+
+            <Entry Placeholder="Informe o código do curso" />
+            <Entry Placeholder="Informe o nome do curso" />
+
+            <Button x:Name="btnLimpar" Text="Limpar" Clicked="btnLimpar_Clicked" />
+            <Button x:Name="btnGravar" Text="Gravar" Clicked="btnGravar_Clicked" />
+            <Button x:Name="btnVoltar" Text="Voltar ao Menu" Clicked="btnVoltar_Clicked" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
