@@ -6,7 +6,7 @@
     <StackLayout>
 
         <Label Text="Cadastros" HorizontalTextAlignment="Center" FontSize="36" />
-        
+
         <Button x:Name="btnAlunos" Text="Alunos" Clicked="btnAlunos_Clicked" />
         <Button x:Name="btnProfessores" Text="Professores" Clicked="btnProfessores_Clicked" />
         <Button x:Name="btnCursos" Text="Cursos" Clicked="btnCursos_Clicked" />
