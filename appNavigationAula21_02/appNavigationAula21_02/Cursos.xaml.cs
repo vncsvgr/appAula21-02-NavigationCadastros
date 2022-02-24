@@ -19,12 +19,13 @@ namespace appNavigationAula21_02
 
         private void btnLimpar_Clicked(object sender, EventArgs e)
         {
-            
+            etrCodigo.Text = "";
+            etrCurso.Text = "";
         }
 
         private void btnGravar_Clicked(object sender, EventArgs e)
         {
-
+            DisplayAlert("Etec Jaú", "Cadastro realizado com sucesso!", "OK");
         }
 
         async void btnVoltar_Clicked(object sender, EventArgs e)

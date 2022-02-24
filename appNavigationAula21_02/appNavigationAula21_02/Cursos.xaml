@@ -7,8 +7,8 @@
 
             <Label Text="Cursos" HorizontalTextAlignment="Center" FontSize="36" />
 
-            <Entry Placeholder="Informe o código do curso" />
-            <Entry Placeholder="Informe o nome do curso" />
+            <Entry Placeholder="Informe o código do curso" Keyboard="Numeric" x:Name="etrCodigo" />
+            <Entry Placeholder="Informe o nome do curso" x:Name="etrCurso" />
 
             <Button x:Name="btnLimpar" Text="Limpar" Clicked="btnLimpar_Clicked" />
             <Button x:Name="btnGravar" Text="Gravar" Clicked="btnGravar_Clicked" />
