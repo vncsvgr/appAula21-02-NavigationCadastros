@@ -25,7 +25,10 @@ namespace appNavigationAula21_02
 
         private void btnGravar_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Etec Jaú", "Cadastro realizado com sucesso!", "OK");
+            if (etrCodigo.Text != "" && etrCurso.Text != "")
+            {
+                DisplayAlert("Etec Jaú", "Cadastro realizado com sucesso!", "OK");
+            }
         }
 
         async void btnVoltar_Clicked(object sender, EventArgs e)
